@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/basicStyle.css" rel="stylesheet">
+    <title>Crie sua conta</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="homePage.html" class="logo">
+          <img src="logo.png" alt="siteLogo" width="100">
+        </a>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>Crie sua conta agora mesmo</h1>
+
+      <div class="page-form">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+
+          <div class="form-group">
+            <label for="birthDate">Data de nascimento</label>
+            <input type="date" id="birthDate" name="birthDate" required>
+          </div>
+
+          <div class="form-group">
+            <label for="gender">Gênero</label>
+            <select name="gender">
+              <option value="">Selecione uma opção...</option>
+              <option value="female">Feminino</option>
+              <option value="male">Masculino</option>
+              <option value="other">Outro</option>
+              <option value="preferNotToAnswer">Prefiro não informar</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+
+          <div class="form-group">
+            <label for="confirmPassword">Digite a senha novamente</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+          </div>
+
+          <div class="form-group">
+            <input type="checkbox" id="agree" required>
+            <label for="agree">Eu li e concordo com os <a href="#">termos de uso</a></label>
+          </div>
+
+          <div class="form-group">
+            <button type="submit">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+
+      <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/basicStyle.css" rel="stylesheet">
+    <link href="../assets/registerRepository.css" rel="stylesheet">
+    <title>Repositório</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="homePage.html" class="logo">
+          <img src="logo.png" alt="siteLogo" width="100">
+        </a>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2>Inicie um novo repositório</h2>
+
+      <div class="page-form">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="description">Descrição</label>
+            <input type="text" id="description" name="description">
+          </div>
+
+          <div class="radio-group">
+            <input type="radio" id="public" name="type" value="public" required>
+            <label for="public">Público</label>
+
+            <input type="radio" id="private" name="type" value="private">
+            <label for="private">Privado</label>
+          </div>
+
+          <div class="form-group">
+            <button type="submit">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
